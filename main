@@ -1,1 +1,16 @@
-
+<!DOCTYPE html>
+<head>
+  <title>ыаыаыа</title>
+  <link rel="stylesheet" href="asd.css">
+    <meta charset="utf-8">
+</head>
+<body>
+    <div class="tabl">
+        <div class="bigsize"><h1>TADC!!</h1></div>
+        <div class="bigsize"><h2>зачем кричать коль у вас нету рта?</h2></div>
+        <a href="https://tadc.fandom.com/wiki/Zooble" target="_blank"><div class="smol"><img src="img/zoob.webp"/></div></a>
+        <a href="https://tadc.fandom.com/wiki/Gangle" target="_blank"><div class="smol"><img src="img/google.webp"/></div></a>
+        <a href="https://tadc.fandom.com/wiki/Kinger" target="_blank"><div class="smol"><img src="img/kin.webp"/></div></a>
+        <a href="https://tadc.fandom.com/wiki/Ragatha" target="_blank"><div class="smol"><img src="img/raga.webp"/></div></a>
+    </div>
+</body>
