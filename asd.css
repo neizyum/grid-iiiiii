@@ -1,0 +1,23 @@
+.tabl{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.bigsize{
+    grid-column: span 2;
+    background-color: rgb(31, 24, 139);
+    height: 120px;
+    margin: 10px;
+    place-items: center;
+}
+.smol{
+    background-color: rgb(167, 19, 19);
+    height: 303px;
+    margin: 10px;  
+    place-items: center;
+}
+h1{
+    color: aliceblue;
+}
+h2{
+    color: aliceblue;
+}
