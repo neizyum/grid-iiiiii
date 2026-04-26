@@ -1,17 +1,29 @@
+html{
+    height: 100%;
+    margin: 0;
+}
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
 .tabl{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .bigsize{
     grid-column: span 2;
-    background-color: rgb(31, 24, 139);
+    background-color: rgb(194, 21, 21);
     height: 120px;
     margin: 10px;
+    place-items: center;
+    display: grid;
     place-items: center;
 }
 .smol{
     background-color: rgb(167, 19, 19);
-    height: 303px;
+    height: auto;
     margin: 10px;  
     place-items: center;
 }
@@ -20,4 +32,35 @@ h1{
 }
 h2{
     color: aliceblue;
+}
+img{
+    width: 100%;
+}
+
+.space{
+    flex: 1 0;
+}
+footer{
+    background-color: rgb(31, 24, 139);
+    display: grid;
+    place-items: center;
+    border-top: 2px;
+}
+@media (max-width: 768px) {
+.tabl{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.bigsize{
+    grid-column: span 1;
+}
+}
+@media  (width >= 769px) and (width <= 1024px) {
+.tabl{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.bigsize{
+    grid-column: span 1;
+}
 }
